@@ -1,5 +1,7 @@
 The purpose of this project is to learn React and react-redux. This is achieved by trying to create a RPG. No expectations. Let us see where it takes us.
 
+Note to self: Check out phaser
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
