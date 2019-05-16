@@ -1,6 +1,7 @@
 import React from 'react';
 import { SPRITE_SIZE } from '../../config/constants';
 import './styles.css';
+import { connect } from 'react-redux'; 
 
 function getTileSprite(type) {
     switch(type) {
@@ -52,4 +53,10 @@ function Map(props) {
     )
 }
 
-export default Map;
+function mapStateToProps(state){
+    return {
+        tiles: state.map.tiles
+    }
+}
+
+export default connect(mapStateToProps)(Map);
